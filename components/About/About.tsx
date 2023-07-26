@@ -5,7 +5,7 @@ import { AiOutlineArrowRight } from 'react-icons/ai';
 import type { NextComponentType } from 'next';
 
 export const About: NextComponentType = () => (
-  <section className="my-8 flex flex-row items-center justify-between px-3">
+  <section className="my-8 flex flex-row relative items-center justify-between px-3">
     <div>
       <h1 className="text-4xl font-bold dark:text-white">Aditya</h1>
       <p className="mt-1 text-lg">Frontend Developer, Blogger and a Student</p>
@@ -33,8 +33,8 @@ export const About: NextComponentType = () => (
         </a>
       </Link>
     </div>
-    <div className="hidden custom:block">
-      <Image src="/assets/myself2.png" width="300" height="400" alt="avatar"/>
+    <div className="hidden custom:block absolute left-[400px] lg:-top-32">
+      <Image src="/assets/myself2.png" width="300" height="400" alt="avatar" className="" />
     </div>
   </section>
 );
