@@ -9,7 +9,7 @@ export const Contact: NextComponentType = () => (
     <p className="text-3xl font-bold dark:text-white">Get in touch</p>
 
     <div className="mt-8 mb-6 flex flex-row justify-center gap-x-4">
-      <Link href="https://github.com/avinashprj" passHref>
+      <Link href="https://github.com/adityarawat007" passHref>
         <a
           className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
           target="_blank"
@@ -19,7 +19,7 @@ export const Contact: NextComponentType = () => (
           <AiOutlineGithub />
         </a>
       </Link>
-      <Link href="https://twitter.com/avinash_prj" passHref>
+      <Link href="https://twitter.com/0xaadityaa" passHref>
         <a
           className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
           target="_blank"
@@ -29,7 +29,7 @@ export const Contact: NextComponentType = () => (
           <AiOutlineTwitter />
         </a>
       </Link>
-      <Link href="https://linkedin.com/in/avinash-prajapati" passHref>
+      <Link href="https://www.linkedin.com/in/aditya-rawat-0774a61a4/" passHref>
         <a
           className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
           target="_blank"
@@ -39,7 +39,7 @@ export const Contact: NextComponentType = () => (
           <GrLinkedinOption />
         </a>
       </Link>
-      <Link href="mailto:kr.avinashprajapati914@gmail.com" passHref>
+      <Link href="mailto:rawataditya795@gmail.com" passHref>
         <a
           className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
           target="_blank"
