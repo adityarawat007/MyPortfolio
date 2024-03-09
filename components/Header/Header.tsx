@@ -47,7 +47,7 @@ export const Header: NextComponentType = () => {
         <div className="flex gap-3">
           <button
             type="button"
-            className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
+            className="rounded-lg dark:bg-zinc-800 p-2 cursor-pointer text-2xl dark:text-white dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
             onClick={toggleTheme}
             aria-label="theme-toggle"
           >
@@ -57,7 +57,7 @@ export const Header: NextComponentType = () => {
               <MdOutlineLightMode className="w-5 h-5 " />
             )}
           </button>
-          <Link href="https://github.com/adityarawat007" passHref>
+          <Link href="https://github.com/adityarawat007" >
             <a
               className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
               target="_blank"

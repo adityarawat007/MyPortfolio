@@ -14,8 +14,8 @@ const Home: NextPage = () => (
     <main>
       <About />
       <Skills />
-      {/* <Experience />
-      <Projects /> */}
+      <Experience />
+      <Projects /> 
     </main>
     <footer>
       <Contact />
